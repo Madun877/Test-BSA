@@ -22,6 +22,14 @@ cout<<"  Matriks 3 x 3 = "<<endl<<endl;
 for(i=0;i<3;i++){
 for(j=0;j<3;j++){
 cout<<setw(4)<<a[i][j];}
+
+  for (j=0;j<3;j++){
+	hasil = 0;
+	hasil = hasil+a[i][j];
+}
+
+//hasil = (i)+ (j);
+cout << hasil <<endl;
 cout<<endl<<endl;}
 getch ();
 }
